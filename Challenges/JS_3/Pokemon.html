@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's that Pokemon?</title>
+    <link rel="stylesheet" href="Pokemon.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cabecera">
+            <img class="imagen-titulo" src="images/International_Pokémon_logo.svg.png" alt="">
+            <p id="adivina">Who's that Pokemon?</p>
+        </div>
+        <div class="contenido">
+            <div class="img-pokemon">
+            </div>
+            <div class="contenido-pokemon">
+            </div>
+        </div>
+        <div class="contenedor-botones">
+        </div>
+        <div class="contenedor-resultado">
+            <div class="contenedor-score">
+                <p class="score">Score: <span id="numero">0</span>/<span id="limite">5</span> </p>
+                <p class="tiempo">Tiempo: <span id="cuenta-regresiva">10</span>s</p>
+            </div>
+            <button class="siguiente" onclick="siguientePokemon()">
+                Siguiente
+            </button>
+        </div>
+    </div>
+
+    <script src="Pokemon.js"></script>
+</body>
+</html>
