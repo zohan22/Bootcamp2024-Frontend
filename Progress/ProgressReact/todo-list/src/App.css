@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(53, 48, 48);
+  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: #151815;
+  color: white;
+  padding: 18px 25px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  border-radius: 5px;
+  
+}
+
+input {
+  margin-top: 10px;
+  height: 30px;
+  background-color: rgb(115, 95, 82);
+  border: 2px solid rgb(19, 19, 21);
+  color: white;
+  font-size: 1rem;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+button:hover {
+  border: 2px solid #ff00d0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
