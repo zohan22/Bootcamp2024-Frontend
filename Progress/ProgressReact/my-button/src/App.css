@@ -15,3 +15,40 @@
     border: none;
     cursor: pointer;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(53, 48, 48);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: #151815;
+    color: white;
+    padding: 18px 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+button:hover {
+    border: 2px solid #ff00d0;
+}
